@@ -1,0 +1,28 @@
+{
+    "data_path": "C:\\Users\\Zacha\\Downloads\\WHR2018Chapter2OnlineData.xls",
+    "target": "Life Ladder",
+    "features": [
+        "country",
+        "year",
+        "Log GDP per capita",
+        "Social support",
+        "Healthy life expectancy at birth",
+        "Freedom to make life choices",
+        "Generosity",
+        "Perceptions of corruption",
+        "Positive affect",
+        "Negative affect",
+        "Confidence in national government",
+        "Democratic Quality",
+        "Delivery Quality",
+        "Standard deviation of ladder by country-year",
+        "Standard deviation/Mean of ladder by country-year",
+        "GINI index (World Bank estimate)",
+        "GINI index (World Bank estimate), average 2000-15",
+        "gini of household income reported in Gallup, by wp5-year"
+    ],
+    "model_type": "LinearRegression",
+    "test_size": 0.2,
+    "random_state": 42,
+    "model_path": "model.joblib"
+}
